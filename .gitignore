@@ -198,7 +198,6 @@ frontend-client/dist-ssr/
 frontend-client/build/
 
 # Misc
-.DS_Store
 frontend-client/.env.local
 frontend-client/.env.development.local
 frontend-client/.env.test.local
@@ -213,16 +212,6 @@ lerna-debug.log*
 
 # Vite
 frontend-client/.vite/
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
 # ==========================================
 # Docker
@@ -323,20 +312,7 @@ bin/
 .history/
 *.vsix
 
-# JetBrains
-.idea/
-*.iml
-*.iws
-*.ipr
-.idea_modules/
-atlassian-ide-plugin.xml
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
 # Visual Studio Code
-.history
 .ionide
 
 # ==========================================
@@ -344,7 +320,6 @@ fabric.properties
 # ==========================================
 
 # General logs
-*.log
 logs/
 *.log.*
 
@@ -353,7 +328,6 @@ logs/
 *.temp
 *.swp
 *.swo
-*~
 .#*
 \#*\#
 
@@ -362,7 +336,6 @@ logs/
 # ==========================================
 
 # Environment variables
-.env
 .env.local
 .env.*.local
 .env.development

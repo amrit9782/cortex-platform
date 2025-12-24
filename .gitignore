@@ -43,7 +43,7 @@ backend-java/.mvn/wrapper/maven-wrapper.jar
 backend-java/.gradle/
 backend-java/build/
 backend-java/gradle-app.setting
-!**/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
 backend-java/.gradletasknamecache
 
 # Spring Boot
@@ -233,7 +233,7 @@ docker-compose.*.local.yml
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon
+Icon?
 ._*
 .DocumentRevisions-V100
 .fseventsd
@@ -331,7 +331,8 @@ logs/
 # Security and Credentials
 # ==========================================
 
-# Environment variables
+# Environment variables (root and subapp-level)
+# Note: Frontend-specific .env files are prefixed with frontend-client/
 .env.local
 .env.*.local
 .env.development

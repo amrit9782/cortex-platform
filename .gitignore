@@ -43,7 +43,7 @@ backend-java/.mvn/wrapper/maven-wrapper.jar
 backend-java/.gradle/
 backend-java/build/
 backend-java/gradle-app.setting
-backend-java/!gradle-wrapper.jar
+!backend-java/gradle-wrapper.jar
 backend-java/.gradletasknamecache
 
 # Spring Boot
@@ -311,8 +311,6 @@ bin/
 !.vscode/*.code-snippets
 .history/
 *.vsix
-
-# Visual Studio Code
 .ionide
 
 # ==========================================
@@ -356,7 +354,6 @@ secrets/
 
 # General build artifacts
 /build/
-/dist/
 /out/
 /target/
 

@@ -1,7 +1,11 @@
-# Compiled class file
+# ==========================================
+# Backend-Java (Spring Boot 3.4)
+# ==========================================
+
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +14,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,6 +23,339 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
+
+# Maven
+backend-java/target/
+backend-java/pom.xml.tag
+backend-java/pom.xml.releaseBackup
+backend-java/pom.xml.versionsBackup
+backend-java/pom.xml.next
+backend-java/release.properties
+backend-java/dependency-reduced-pom.xml
+backend-java/buildNumber.properties
+backend-java/.mvn/timing.properties
+backend-java/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+backend-java/.gradle/
+backend-java/build/
+backend-java/gradle-app.setting
+!**/gradle/wrapper/gradle-wrapper.jar
+backend-java/.gradletasknamecache
+
+# Spring Boot
+backend-java/spring-boot-*.log
+
+# ==========================================
+# Backend-Python (FastAPI)
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+backend-python/.Python
+backend-python/build/
+backend-python/develop-eggs/
+backend-python/dist/
+backend-python/downloads/
+backend-python/eggs/
+backend-python/.eggs/
+backend-python/lib/
+backend-python/lib64/
+backend-python/parts/
+backend-python/sdist/
+backend-python/var/
+backend-python/wheels/
+backend-python/share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Flask/Django stuff:
+backend-python/instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+backend-python/target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+backend-python/.venv/
+backend-python/venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ==========================================
+# Frontend-Client (Vue 3)
+# ==========================================
+
+# Dependencies
+frontend-client/node_modules/
+frontend-client/.pnp
+frontend-client/.pnp.js
+
+# Testing
+frontend-client/coverage/
+
+# Production
+frontend-client/dist/
+frontend-client/dist-ssr/
+frontend-client/build/
+
+# Misc
+frontend-client/.env.local
+frontend-client/.env.development.local
+frontend-client/.env.test.local
+frontend-client/.env.production.local
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite
+frontend-client/.vite/
+
+# ==========================================
+# Docker
+# ==========================================
+
+# Docker Compose overrides
+docker-compose.override.yml
+docker-compose.*.local.yml
+
+# Docker volumes
+.docker/
+
+# Docker environment files
+.env.docker
+
+# ==========================================
+# Operating Systems
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+.ionide
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+
+# General logs
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+.#*
+#*#
+
+# ==========================================
+# Security and Credentials
+# ==========================================
+
+# Environment variables (root and subapp-level)
+# Note: Frontend-specific .env files are prefixed with frontend-client/
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==========================================
+# Build Artifacts and Cache
+# ==========================================
+
+# General build artifacts
+/build/
+/out/
+/target/
+
+# Cache directories
+.cache/
+*.cache
